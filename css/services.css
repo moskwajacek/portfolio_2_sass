@@ -1,0 +1,12 @@
+#services .icon {
+  border: 1px solid #0ed8d6;
+  border-radius: 60px;
+  font-size: 3em;
+  background-color: #0ed8d6;
+  color: #fff;
+  padding: 20px;
+  transition: all 0.5s; }
+  #services .icon:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+    transform: rotate(360deg); }

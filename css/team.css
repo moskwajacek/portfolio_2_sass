@@ -1,0 +1,20 @@
+#team .team-img {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 0 auto; }
+
+#team .team-bottom {
+  margin-bottom: 50px; }
+
+#team #team-img-1 {
+  background-image: url("../img/team/man-1.jpg"); }
+
+#team #team-img-2 {
+  background-image: url("../img/team/man-2.jpg"); }
+
+#team #team-img-3 {
+  background-image: url("../img/team/woman-1.jpg"); }

@@ -1,0 +1,59 @@
+@import 'zmienne.scss';
+@import 'navbar.scss';
+@import 'header.scss';
+@import 'team.scss';
+@import 'contact.scss';
+@import 'footer.scss';
+@import 'portfolio.scss';
+@import 'services.scss';
+
+body {
+    font-family: $base-font;
+    color: $base-color;
+}
+
+section {
+    padding: 80px 0;
+    h3 {
+        font-family: $heading-font;
+        font-size: 1.2em;
+        color: $heading-color;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.section-header {
+    margin-bottom: 70px;
+    h2 {
+        font-family: $heading-font;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $heading-color;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-family: $paragraf-font;
+    }
+}
+
+.social-icons {
+    .fa {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5em;
+        background-color: $iconsbg-color;
+        color: $icons-color;
+        border-radius: 50%;
+        margin: auto 5px;
+        padding: 13px;
+
+        &:hover {
+            background-color: $headerbckgrcolor;
+            color: $icons-color;
+        }
+    }
+}

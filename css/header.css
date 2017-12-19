@@ -1,0 +1,30 @@
+.main-header {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; }
+  .main-header h2 {
+    font-family: "Droid Serif", sans-serif; }
+  .main-header h1 {
+    font-family: #333;
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .main-header a {
+    font-family: #333;
+    font-weight: 700;
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    transition: all 0.3s;
+    text-transform: uppercase; }
+    .main-header a:hover {
+      font-weight: 700;
+      background-color: #fff;
+      border: 1px solid #0ed8d6;
+      color: #0ed8d6;
+      text-transform: uppercase; }

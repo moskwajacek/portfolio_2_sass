@@ -1,0 +1,55 @@
+@import 'zmienne.scss';
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/footer/world-map.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    header {
+        h2 {
+            color: $icons-color;
+        }
+        p {
+            color: $icons-color;
+        }
+    }
+
+    input,
+    textarea {
+        text-transform: uppercase;
+        padding: 15px;
+        font-family: $heading-font;
+        border-radius: 10px;
+
+        &not([type='submit']),
+        textarea {
+            border: 0;
+        }
+
+        &[type='submit'] {
+            background-color: $headerbckgrcolor;
+            border: 1px solid $headerbckgrcolor;
+            color: $heading-font;
+            margin-top: 30px;
+            transition: all 0.4s;
+
+            &:hover {
+                background-color: $heading-font;
+                color: $headerbckgrcolor;
+            }
+        }
+    }
+    .contact-form-column {
+        display: flex;
+        flex-direction: column;
+        height: 220px;
+        justify-content: space-between;
+    }
+
+    textarea {
+        width: 100%;
+        height: 100%;
+    }
+}
